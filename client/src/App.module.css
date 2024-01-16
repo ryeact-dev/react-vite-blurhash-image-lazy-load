@@ -1,0 +1,25 @@
+.container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container h1 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 3rem;
+}
+
+.image_wrapper {
+  max-width: 960px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2em;
+  content-visibility: visible;
+}

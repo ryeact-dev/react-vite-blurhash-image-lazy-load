@@ -1,0 +1,33 @@
+.image_container {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  height: 500px;
+  width: 320px;
+}
+
+.image_container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.not_loaded {
+  display: none;
+}
+
+.is_loaded {
+  display: inline;
+}
+
+.image_loading {
+  z-index: 30;
+  position: absolute !important;
+  top: 0;
+  left: 0;
+}
+
+.image_loaded {
+  display: none;
+}
